@@ -57,13 +57,14 @@ See source in [benchmark/01-empty-app](https://github.com/Elanis/web-to-desktop-
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **Build size** | ***Windows (x86)*** | ≈160MB | ≈237MB | ? | ≈83MB | ≈2MB | ≈18MB | ? |
 | | ***Windows (ARM64)*** | ≈193MB | [Requested](https://github.com/nwjs/nw.js/issues/7599) | ? | ? | ? | ? | ? |
-| | ***MacOS*** | ? | ≈265MB | ? | ? | ≈2MB | ? | ? |
 | | ***Linux (x86)*** | ≈171MB | ≈329MB | ? | ? | ≈2MB | ? | ? |
 | | ***Linux (ARMv7l)*** | ≈128MB | [Requested](https://github.com/nwjs/nw.js/issues/1151) | ? | ? | ? | ? | ? |
 | | ***Linux (ARM64)*** | ≈196MB | [Requested](https://github.com/nwjs/nw.js/issues/1151) | ? | ? | ? | ? | ? |
 | **Memory Usage** | ***Windows (x64)*** | ≈74MB (Debug) | ≈54MB (Debug) | ≈66MB (Debug) | ≈98MB (Debug) | ≈24MB (Debug) | ? | ? |
+| | ***MacOS*** | ≈62MB (Debug) | ≈35MB (Debug) | ≈55MB (Debug) | ≈144MB (Debug) | ≈27MB (Debug) | ? | ? |
 | | ***Linux (x64)*** | ≈24MB (Debug) | ≈83MB (Debug) | ≈66MB (Debug) | ≈149MB (Debug) | ≈15MB (Debug) | ? | ? |
 | **Start duration** | ***Windows (x64)*** | ≈164ms (Debug) | ? | ? | ? | ? | ? | ? |
+| | ***MacOS*** | ≈277ms (Debug) | ? | ? | ? | ? | ? | ? |
 | | ***Linux (x64)*** | ? | ? | ? | ? | ? | ? | ? |
 
 # 02-empty-app-headless
@@ -74,13 +75,14 @@ See source in [benchmark/02-empty-app-headless](https://github.com/Elanis/web-to
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **Build size** | ***Windows (x86)*** | ≈160MB | ≈237MB | ? | ≈83MB | ≈2MB | N/A<sup>1</sup>| ? |
 | | ***Windows (ARM64)*** | ≈193MB | [Requested](https://github.com/nwjs/nw.js/issues/7599) | ? | ? | ? | N/A<sup>1</sup>| ? |
-| | ***MacOS*** | ? | ≈265MB | ? | ? | ≈2MB | N/A<sup>1</sup>| ? |
 | | ***Linux (x86)*** | ≈171MB | ≈329MB | ? | ? | ≈2MB | N/A<sup>1</sup>| ? |
 | | ***Linux (ARMv7l)*** | ≈128MB | [Requested](https://github.com/nwjs/nw.js/issues/1151) | ? | ? | ? | N/A<sup>1</sup>| ? |
 | | ***Linux (ARM64)*** | ≈196MB | [Requested](https://github.com/nwjs/nw.js/issues/1151) | ? | ? | ? | N/A<sup>1</sup>| ? |
 | **Memory Usage** | ***Windows (x64)*** | ≈51MB (Debug) | ≈29MB (Debug) | ≈27MB (Debug) | ≈16MB (Debug) | ≈17MB (Debug) | N/A<sup>1</sup>| ? |
+| | ***MacOS*** | ≈62MB (Debug) | ≈40MB (Debug) | ≈57MB (Debug) | ≈136MB (Debug) | ≈27MB (Debug) | N/A<sup>1</sup>| ? |
 | | ***Linux (x64)*** | ≈39MB (Debug) | ≈82MB (Debug) | ≈73MB (Debug) | ≈150MB (Debug) | ≈20MB (Debug) | N/A<sup>1</sup>| ? |
 | **Start duration** | ***Windows (x64)*** | ? | ? | ? | ? | ? | N/A<sup>1</sup>| ? |
+| | ***MacOS*** | ≈247ms (Debug) | ? | ? | ? | ? | N/A<sup>1</sup>| ? |
 | | ***Linux (x64)*** | ? | ? | ? | ? | ? | N/A<sup>1</sup>| ? |
 
 **<sup>1</sup>**: Frameless mode not supported yet**<sup>1</sup>**: Frameless mode not supported yet
